@@ -6,6 +6,7 @@
     border-radius: 6px;
     text-align: center;
     margin-left: 60px;
+    outline: none;
 }
 .item::-webkit-input-placeholder{
     color: #BEBEBE;

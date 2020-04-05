@@ -10,7 +10,7 @@ const Payment = (props) =>{
       <div className={s.wrapper}>
         <Route path='/index'
         render={() => <FirstVisit state={props.state}/>}/>
-        <Route path='/notFirst'
+        <Route  path='/notFirst'
         render={() => <NotFirstVisit state={props.state}/>}/>
         <Route path='/err'
         render={() => <ErrorPage/>}/>
