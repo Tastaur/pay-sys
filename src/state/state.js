@@ -22,7 +22,7 @@ export let startTimer =() => {
     if (s < 10) s = 0 + s;
     state.countDown.m = m;
     state.countDown.s = s;
-    setTimeout(startTimer, 100);
+    setTimeout(startTimer, 1000);
     rerender(state)
 }
 
