@@ -5,7 +5,7 @@ const Timer = (props) =>{
   return(
       <div className={s.wrapper}>
         <div>До окончании сессии
-        <span id="countdown"> 20:00</span>
+        <span id="countdown"> {props.state.m}:{props.state.s}</span>
         </div>
       </div>
   )

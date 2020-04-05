@@ -9,7 +9,7 @@ const Footer = (props) =>{
       <div className={s.wrapper}>
         <CheckBox/>
         <Button/>
-        <Timer/>
+        <Timer state={props.state}/>
       </div>
   )
 }

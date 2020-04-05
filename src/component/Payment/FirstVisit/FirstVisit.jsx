@@ -8,8 +8,8 @@ const FirstVisit = (props) =>{
   return(
       <div className={s.wrapper}>
       <Header/>
-      <Body state={props.state}/>
-      <Footer/>
+      <Body state={props.state.orderInfo}/>
+      <Footer state={props.state.countDown}/>
       </div>
   )
 }

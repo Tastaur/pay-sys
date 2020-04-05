@@ -9,8 +9,8 @@ function App(props) {
     <div className="App">
       <BrowserRouter>
       <SelectStatus/>
-      <div className={s.wrapper}>
-        <Payment state={props.state.orderInfo}/>
+      <div className={s.wrapper} >
+        <Payment state={props.state} />
       </div>
     </BrowserRouter>
     </div>
