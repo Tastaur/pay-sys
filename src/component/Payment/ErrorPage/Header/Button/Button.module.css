@@ -1,0 +1,10 @@
+.item{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 22px;
+    align-self: start;
+}

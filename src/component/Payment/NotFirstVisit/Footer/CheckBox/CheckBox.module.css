@@ -1,0 +1,33 @@
+.checkbox{
+    display: none;
+}
+.fake{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    margin-top: -4px;
+    background-color: white;
+    border: 1px solid  #BEBEBE;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.fake::before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url(./check.png);
+    transition: .2s;
+    opacity: 0;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+.wrapper{
+    margin-left: 30px;
+}

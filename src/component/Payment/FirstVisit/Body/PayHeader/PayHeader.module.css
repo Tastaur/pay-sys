@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    width: 344px;
+    height: 160px;
+    background: linear-gradient(179.62deg, #D8E4EA 0.75%, #FAFAFA 99.34%), linear-gradient(90deg, #536976 0%, #292E49 100%);
+    border-radius: 40px 40px 0px 0px;
+    padding: 26px;
+}

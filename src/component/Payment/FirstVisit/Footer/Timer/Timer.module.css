@@ -1,0 +1,9 @@
+.wrapper{
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    flex-direction: row;
+    display: flex;
+}

@@ -1,0 +1,12 @@
+.wrapper{
+    text-align: center;
+
+}
+.img{
+    background-image: url("error.png");
+    height: 85px;
+    width: 85px;
+    background-size: cover;
+    border: none;
+    margin: 0 auto;
+}

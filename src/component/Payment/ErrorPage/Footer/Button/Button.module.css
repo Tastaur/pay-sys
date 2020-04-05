@@ -1,0 +1,17 @@
+.item{
+    width: 150px;
+    height: 40px;
+    background: #EF5350;
+    border-radius: 66px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: none;
+}
+.item:active{
+    background: rgba(255, 105, 102, 0.61);
+}

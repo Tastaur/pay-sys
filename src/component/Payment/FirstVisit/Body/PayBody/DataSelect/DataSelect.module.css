@@ -1,0 +1,30 @@
+.select{
+    width: 130px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    height: 25px;
+}
+.month{
+    width: 80px;
+    border: none;
+    appearance: none;
+    outline: none;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BEBEBE;
+}
+.year{
+    width: 40px;
+    border: none;
+    appearance: none;
+    outline: none;
+    margin-left: -15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BEBEBE;
+}

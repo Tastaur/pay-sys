@@ -1,0 +1,17 @@
+.item{
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    width: 92px;
+    outline: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    height: 22px;
+    color: #BEBEBE;
+}
+.item::-webkit-input-placeholder{
+    color: #BEBEBE;
+}
