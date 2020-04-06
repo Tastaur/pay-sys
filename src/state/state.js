@@ -9,17 +9,17 @@ let state = {
 let m = state.countDown.m;
 let s = state.countDown.s;
 export let startTimer =() => {
-    if (s === 0) {
-      if (m === 0) {
+    if (s == 0) {
+      if (m == 0) {
         console.log("Время вышло");
         return;
       }
       m--;
-      if (m < 10) m = 0 + m;
-      s = Number(59);
+      if (m < 10) m = "0" + m;
+      s = 59;
     }
     else s--;
-    if (s < 10) s = 0 + s;
+    if (s < 10) s = "0" + s;
     state.countDown.m = m;
     state.countDown.s = s;
     setTimeout(startTimer, 1000);
