@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 import {subscribe} from './state/state'
 
-let rerender = () =>{
+let rerender = (state) =>{
     ReactDOM.render(
         <App state={state}/>,
       document.getElementById('root')
