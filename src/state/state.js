@@ -20,7 +20,7 @@ export let startTimer = () => {
   state.countDown.m = m;
   state.countDown.s = s;
   setTimeout(startTimer, 1000);
-  rerender();
+  rerender(state);
 };
 
 export let subscribe = (observe) =>{
