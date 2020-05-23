@@ -1,0 +1,26 @@
+.infoBlock{
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: 40px;
+    background: white;
+    padding: 5px;
+    display: flex;
+}
+.infoButton{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.infoDiscription{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}

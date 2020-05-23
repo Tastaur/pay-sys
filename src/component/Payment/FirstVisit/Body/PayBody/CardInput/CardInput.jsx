@@ -1,13 +1,19 @@
 import React from 'react'
 import s from './CardInput.module.css'
+import {Field, reduxForm} from 'redux-form'
+import {required} from '../../../../ErrorPage/validators/validator'
+import {Input} from '../../../../../Forms/FormsControl'
 
-const CardInput = (props) =>{
+const Card = (props) =>{
   return(
       <div className={s.cardInput}>
-        <input className={s.input} type='text' placeholder=" " maxLength='16'/>
-        <label className={s.label}>Номер карты</label>
+        <Field className={s.input} type={'text'} name={'cardNum'} component={Input} placeholder={'Enter card number'} maxLength='16' validate={[required]}/>
       </div>
   )
 }
+
+const CardInput = reduxForm({
+  form:'cardNum'
+})(Card)
 
 export default CardInput

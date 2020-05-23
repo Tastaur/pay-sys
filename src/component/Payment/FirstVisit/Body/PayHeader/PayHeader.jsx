@@ -5,15 +5,11 @@ import OrderInfo from './OrderInfo/OrderInfo'
 import BankLogo from './BankLogo/BankLogo'
 
 const PayHeader = (props) => {
-  let newOrder = props.state
-      .map(order => <OrderInfo num={order.num} id={order.id} company={order.company} price={order.price}/>)
-  return (
-      <div className={s.header}>
-        <CompanyLogo/>
-        {newOrder}
-        <BankLogo/>
-      </div>
-  )
+  return <div className={s.header}>
+    <CompanyLogo/>
+    <OrderInfo {...props}/>
+    <BankLogo/>
+  </div>
 }
 
 export default PayHeader

@@ -6,7 +6,7 @@ import PayBody from './PayBody/PayBody'
 const Body = (props) =>{
   return(
       <div>
-        <PayHeader state={props.state}/>
+        <PayHeader {...props}/>
         <PayBody/>
       </div>
   )

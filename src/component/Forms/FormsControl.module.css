@@ -1,0 +1,12 @@
+.error input {
+    border: 1px solid red;
+    padding: 2px;
+    border-radius: 3px;
+}
+.error input::placeholder {
+    color: red;
+}
+.error span {
+    color: red;
+}
+

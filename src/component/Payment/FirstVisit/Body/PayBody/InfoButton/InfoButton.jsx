@@ -4,7 +4,7 @@ import s from './InfoButton.module.css'
 const InfoButton = (props) =>{
   return(
       <div >
-      <button className={s.info}> i </button>
+      <button onClick={()=>props.setInfo(true)} className={s.info}> i </button>
       </div>
   )
 }

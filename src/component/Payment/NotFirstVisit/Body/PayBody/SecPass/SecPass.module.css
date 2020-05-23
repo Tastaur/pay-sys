@@ -5,8 +5,10 @@
     border: 1px solid #BEBEBE;
     border-radius: 6px;
     text-align: center;
-    margin-left: 60px;
     outline: none;
+}
+.form{
+    margin-left: 60px;
 }
 .item::-webkit-input-placeholder{
     color: #BEBEBE;

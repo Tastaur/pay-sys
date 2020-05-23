@@ -8,8 +8,8 @@ const NotFirstVisit = (props) =>{
   return(
       <div>
       <Header/>
-      <Body state={props.state.orderInfo}/>
-      <Footer state={props.state.countDown}/>
+      <Body {...props}/>
+      <Footer {...props}/>
       </div>
   )
 }

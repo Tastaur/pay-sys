@@ -5,12 +5,10 @@ import OrderInfo from './OrderInfo/OrderInfo'
 import BankLogo from './BankLogo/BankLogo'
 
 const PayHeader = (props) => {
-  let newOrder = props.state
-      .map(order => <OrderInfo id={order.id} num={order.num} price={order.price} company={order.company} />)
   return (
       <div className={s.header}>
         <CompanyLogo/>
-        {newOrder}
+        <OrderInfo {...props}/>
         <BankLogo/>
       </div>
   )
