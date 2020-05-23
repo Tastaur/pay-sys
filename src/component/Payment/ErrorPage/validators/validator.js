@@ -3,7 +3,8 @@ export const required = value =>{
    return 'Field is required';
 };
 
-
+export const number = value =>
+    value && isNaN(Number(value)) ? 'Must be a number' : undefined
 
 export const maxLengthCreator = maxLength => value =>{
   if(value && value.length > maxLength) return `Max length is ${maxLength} symbol`;

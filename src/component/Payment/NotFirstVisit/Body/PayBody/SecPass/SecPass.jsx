@@ -7,7 +7,7 @@ import {required} from '../../../../ErrorPage/validators/validator'
 const PassInput = (props) =>{
     return(
       <form className={s.form}>
-        <Field component={Input} type={'password'} name={'secPas'} placeholder={'CVV/CVC'} className={s.item} validate={[required]}/>
+        <Field component={Input} maxLength={'3'} type={'password'} name={'secPas'} placeholder={'CVV/CVC'} className={s.item} validate={[required]}/>
       </form>
   )
 }
