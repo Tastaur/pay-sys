@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7edc53c1ab5f828a66df785de9851cc",
+    "revision": "f9907a954fe906d3ccf2d556bfec1e0a",
     "url": "/pay-sys/index.html"
   },
   {
-    "revision": "2de8ce31007c0a13ab94",
-    "url": "/pay-sys/static/css/main.1bfa1a39.chunk.css"
+    "revision": "fe46e31816f28ec12764",
+    "url": "/pay-sys/static/css/main.d5f03046.chunk.css"
   },
   {
     "revision": "c4e75cc2d04c1873303d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pay-sys/static/js/2.c4f9fe5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2de8ce31007c0a13ab94",
-    "url": "/pay-sys/static/js/main.2dbd4ff9.chunk.js"
+    "revision": "fe46e31816f28ec12764",
+    "url": "/pay-sys/static/js/main.82be3266.chunk.js"
   },
   {
     "revision": "fd6e9838c9899a83c10f",

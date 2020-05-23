@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pay-sys/static/css/main.1bfa1a39.chunk.css",
-    "main.js": "/pay-sys/static/js/main.2dbd4ff9.chunk.js",
-    "main.js.map": "/pay-sys/static/js/main.2dbd4ff9.chunk.js.map",
+    "main.css": "/pay-sys/static/css/main.d5f03046.chunk.css",
+    "main.js": "/pay-sys/static/js/main.82be3266.chunk.js",
+    "main.js.map": "/pay-sys/static/js/main.82be3266.chunk.js.map",
     "runtime-main.js": "/pay-sys/static/js/runtime-main.5de5b057.js",
     "runtime-main.js.map": "/pay-sys/static/js/runtime-main.5de5b057.js.map",
     "static/js/2.c4f9fe5f.chunk.js": "/pay-sys/static/js/2.c4f9fe5f.chunk.js",
     "static/js/2.c4f9fe5f.chunk.js.map": "/pay-sys/static/js/2.c4f9fe5f.chunk.js.map",
     "index.html": "/pay-sys/index.html",
-    "precache-manifest.fd255904eaa05dbb2c726e5084804cb5.js": "/pay-sys/precache-manifest.fd255904eaa05dbb2c726e5084804cb5.js",
+    "precache-manifest.17efffd217ce53290d1973194ba55cb9.js": "/pay-sys/precache-manifest.17efffd217ce53290d1973194ba55cb9.js",
     "service-worker.js": "/pay-sys/service-worker.js",
-    "static/css/main.1bfa1a39.chunk.css.map": "/pay-sys/static/css/main.1bfa1a39.chunk.css.map",
+    "static/css/main.d5f03046.chunk.css.map": "/pay-sys/static/css/main.d5f03046.chunk.css.map",
     "static/js/2.c4f9fe5f.chunk.js.LICENSE.txt": "/pay-sys/static/js/2.c4f9fe5f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5de5b057.js",
     "static/js/2.c4f9fe5f.chunk.js",
-    "static/css/main.1bfa1a39.chunk.css",
-    "static/js/main.2dbd4ff9.chunk.js"
+    "static/css/main.d5f03046.chunk.css",
+    "static/js/main.82be3266.chunk.js"
   ]
 }
