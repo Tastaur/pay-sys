@@ -7,7 +7,7 @@ import {Input} from '../../../../../Forms/FormsControl'
 const Card = (props) =>{
   return(
       <div className={s.cardInput}>
-        <Field className={s.input} type={'text'} name={'cardNum'} component={Input} placeholder={'Enter card number'} maxLength='16' validate={[required, number]}/>
+        <Field className={s.input} type={'number'} name={'cardNum'} component={Input} placeholder={'Enter card number'} maxLength={'16'} validate={[required, number]}/>
       </div>
   )
 }
