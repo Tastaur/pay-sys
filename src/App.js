@@ -1,7 +1,7 @@
 import React from 'react'
 import SelectStatus from './component/SelectStatus/SelectStatus'
 import s from './App.css'
-import {BrowserRouter, withRouter} from 'react-router-dom'
+import {HashRouter, withRouter} from 'react-router-dom'
 import Payment from './component/Payment/Payment'
 import {connect, Provider} from 'react-redux'
 import {compose} from 'redux'
@@ -19,11 +19,11 @@ const App = (props) => {
 }
 
 let PaySys = (props) => {
-  return <BrowserRouter>
+  return <HashRouter>
     <Provider store={store}>
       <AppContainer/>
     </Provider>
-  </BrowserRouter>
+  </HashRouter>
 }
 const mapStateToProps = (state) => {
   return {
